@@ -7,8 +7,19 @@ public class Main
  {
    // creates new instance of Item class to allow nonstatic testing.
    Item item = new Item();
-   // creates new instance of Item class to allow nonstatic testing.
+   // creates new instance of Food class to allow nonstatic testing.
    Food food = new Food();
+   // creates new instance of Weapon class to allow nonstatic testing.
+   Weapon weapon = new Weapon();
+   // creates new instance of Armor class to allow nonstatic testing.
+   Armor armor = new Armor();
+   
+   //Test's getDefense method
+   System.out.println("Defense is " + armor.getDefense());
+   
+   //Test's getDamage method
+   System.out.println("Damage is " + weapon.getDamage());
+   
    
    // Test's getNutrition method
    System.out.println("Nutrition is " + food.getNutrition());
