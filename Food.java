@@ -3,10 +3,15 @@
  */ 
 public class Food extends Item
 {
-  // 
+  // amount of nutrition
  private int nutrition;
  // The amount of food
  private int quantity;
+ // constructor method to initilize nutrition
+ public Food()
+ {
+  nutrition = 5;
+ }
  // Accesor method to get the nutrition
  public int getNutrition()
  {
@@ -15,7 +20,7 @@ public class Food extends Item
  // Accesor method to get the quantity
  public int getQuantity()
  {
-   return nutrition;
+   return quantity;
  }
  //Mutator method to set the quantity
  public void setQuantity(int newAmount)
