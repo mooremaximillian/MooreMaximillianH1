@@ -7,10 +7,16 @@ public class Food extends Item
  private int nutrition;
  // The amount of food
  private int quantity;
+ 
+ 
+ 
  // constructor method to initilize nutrition
  public Food()
  {
   nutrition = 5;
+  name = "Grape";
+  weight = 4 * quantity;
+  
  }
  // Accesor method to get the nutrition
  public int getNutrition()
@@ -32,4 +38,5 @@ public class Food extends Item
  {
    return weight * quantity;
  }
+ 
 }

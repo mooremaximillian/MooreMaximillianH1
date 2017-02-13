@@ -1,7 +1,7 @@
 /**
  * This class describes an Armor item
  */ 
-public class Armor
+public class Armor extends Item
 {
   //Declares an int defense
   private int defense;

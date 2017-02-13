@@ -4,9 +4,9 @@
 public class Item
 {
   // name of item
-  String name;
+  String name="Ball";
   // weight of item
-  int weight;
+  int weight = 10;
   // Accesor method to get the Name
   public String getName()
   {
@@ -20,7 +20,7 @@ public class Item
   // This method prints a description with name and weight
   public void examine()
   {
-   System.out.println("This object's name is " + name + ", and it's weight is " + weight + ",");
+   System.out.println("This object's name is " + name + ", and it's weight is " + weight + ".");
                         
   }
   

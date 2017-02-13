@@ -13,6 +13,12 @@ public class Main
    Weapon weapon = new Weapon();
    // creates new instance of Armor class to allow nonstatic testing.
    Armor armor = new Armor();
+   //Test's the weapon method
+   weapon.examine();
+    // Test's the setQuantity method
+  food.setQuantity(3);
+   //Test's the examine method for the food class
+   food.examine();
    
    //Test's getDefense method
    System.out.println("Defense is " + armor.getDefense());
@@ -23,8 +29,7 @@ public class Main
    
    // Test's getNutrition method
    System.out.println("Nutrition is " + food.getNutrition());
-   // Test's the setQuantity method
-  food.setQuantity(3); 
+   
     
    // Test's setQuantity method
    System.out.println("Quantity is " + food.getQuantity());
